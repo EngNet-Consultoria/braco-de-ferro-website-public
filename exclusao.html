@@ -3,25 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Termos de Uso</title>
+    <title>Exclusão de conta</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container my-5">
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <h1 class="mb-4">TERMOS E CONDIÇÕES GERAIS DE USO DO APLICATIVO BRAÇO DE FERRO</h1>
+                <h1 class="mb-4">Exclusão de conta</h1>
 
                 <div class="card border-0 shadow-sm">
                     <div class="card-body p-4">
                         <section class="mb-4">
-                            <p>Os presentes Termos de Uso regulam as condições gerais de utilização dos sites, plataformas e aplicações de Internet do aplicativo Braço de Ferro, em conformidade com a Lei 12.965/2014 (Marco Civil da Internet).</p>
-                            <p>Ao utilizar os sites, plataformas ou aplicações de Internet do “BRAÇO DE FERRO” , você concorda expressa e integralmente com os presentes Termos de Uso.</p>
-                            <p>Recomendamos aos usuários que, previamente à utilização dos sites, plataformas ou aplicações de Internet, realizem atenta leitura dos presentes TERMOS DE USO.</p>
-                            <h2 class="h4 mb-3">1. IDENTIFICAÇÃO DAS PARTES</h2>
-                            <p>Os serviços da aplicação “BRAÇO DE FERRO” são representados legalmente por Filipe Barreto Tomé, brasileiro, empresário.</p>
+                            <form action="/submit-email" method="POST">
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Insira seu endereço de E-mail para prosseguir com a exclusão do seus dados.</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu e-mail" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </form>
                         </section>
-
                     </div>
                 </div>
             </div>
